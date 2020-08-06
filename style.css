@@ -96,7 +96,7 @@ body {
 }
 
 .intro p {
-  margin: 0 0 32px;
+  margin: 0 0 26px;
 }
 
 .skills-list {
@@ -191,12 +191,4 @@ body {
 .footer-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone-footer.svg");
-}
-
-
-.mail{
-  padding-left: 30px;
-}
-.phone{
-  margin-right: 30px;
 }
