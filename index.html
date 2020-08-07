@@ -7,13 +7,20 @@
     <title>Портфолио Junior верстальщика</title>
   </head>
 
-  <body>
+  <body class="light">
     <header class="page-header">
      <div class="container"> 
+
+      <div class="container-left">
+        <button class="theme-button"type="button">Сменить тему</button>
+      </div>
+
       <a class="header-email" href="mailto:demonperchemidi@gmail.com" text-decoration="none">demonperchemidi@gmail.com</a> 
       <br>
       <a class="header-phone" href="tel:+79964087088">+7 996 408-70-88</a>
+
       </div>
+      
     </header>
 
     <section class="hero-image">
@@ -45,7 +52,7 @@
     <dd class="level"><div style="width: 40%;">40%</div></dd>
   </dl>
 </div>
-    </div>
+    </div>  
     </section>
 
     <section class="portfolio">
@@ -68,4 +75,16 @@
       </div>
     </footer>
   </body>
+  <script>
+    let button = document.querySelector('.theme-button');
+    let body = document.querySelector('.light');
+    button.onclick = function(){
+      console.log('hello');
+      body.classList.toggle('light');
+      body.classList.toggle('dark');
+    }
+  </script>
+  <script>
+    
+  </script>
 </html>
