@@ -74,6 +74,9 @@
       <a class="footer-phone" href="tel:+79964087088"> +7 996 408-70-88</a>
       </div>
     </footer>
+    <button class="up-button" type="button">
+    <span class="visually-hidden">Наверх</span>
+  </button>
   </body>
   <script>
     let button = document.querySelector('.theme-button');
@@ -83,6 +86,22 @@
       body.classList.toggle('light');
       body.classList.toggle('dark');
     }
+    
+    
+    let upButton = document.querySelector('.up-button');
+
+window.onscroll = function () {
+  if (window.pageYOffset > 200) {
+    upButton.classList.add('shown');
+  } else{
+   upButton.classList.remove('shown'); 
+  }
+
+};
+
+upButton.onclick = function () {
+  window.scrollTo(0, 0);
+};
   </script>
   <script>
     
