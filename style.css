@@ -253,6 +253,7 @@
 .light .up-button {
   color: #2897ec;
   border-color: #2897ec;
+  background-color: white;
   outline-color: #2897ec;
 }
 
@@ -503,6 +504,7 @@
   border-radius: 8%;
 }
 .dark .up-button {
+  background-color: #080208;
   color: #fea18d;
   border-color: #fea18d;
   outline-color: #fea18d;
