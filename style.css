@@ -247,22 +247,20 @@
   border-radius: 50%;
   display: none;
   cursor: pointer;
+  transition-property: transform;
+  transition-duration: 0.5s;
 }
 .light .up-button {
-  color: #6653d9;
-  background-color: rgba(255, 255, 255, 0.8);
-  border-color: #6653d9;
-  outline-color: #b6aaff;
+  color: #2897ec;
+  border-color: #2897ec;
+  outline-color: #2897ec;
 }
 
 .light .up-button:hover {
-  color: #473c8d;
-  background-color: rgba(255, 255, 255, 0.8);
-  border-color: #473c8d;
+  transform: scale(1.1);
+  color: black;
+  border-color: black;
 }
-
-
-
 .shown {
   display: inline-block;
 }
@@ -343,34 +341,22 @@
   line-height: 96px;
   font-weight: 400;
 }
-
-
-
-
-.hero-image {
+.dark .hero-image {
   margin-bottom: 620px;
 }
 
-.hero-image .container {
+.dark .hero-image .container {
   max-width: 1408px;
   text-align: center;
 }
 
-.heading {
+.dark .heading {
   margin: 0 0 16px;
   font-family: "Old Standard TT", "Times", "Times New Roman", serif;
   font-size: 88px;
   line-height: 96px;
   font-weight: 400;
-
-
 }
-
-
-
-
-
-
 .dark .hero-image p {
   margin: 0;
   font-size: 32px;
@@ -517,14 +503,13 @@
   border-radius: 8%;
 }
 .dark .up-button {
-  color: #9484f2;
-  background-color: rgba(10, 9, 16, 0.6);
-  border-color: #9484f2;
-  outline-color: #6653d9;
+  color: #fea18d;
+  border-color: #fea18d;
+  outline-color: #fea18d;
 }
 
 .dark .up-button:hover {
-  color: #6653d9;
-  background-color: rgba(10, 9, 16, 0.6);
-  border-color: #6653d9;
+  transform: scale(1.1);
+  color: white;
+  border-color: white;
 }
