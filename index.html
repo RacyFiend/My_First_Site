@@ -93,38 +93,39 @@
     
 
 
-
-
-
-
-
-
-
-
-
-
     let header = document.querySelector('.page-header');
     let upButton = document.querySelector('.up-button');
 window.onscroll = function () {
-  console.log('h');
+let intro = document.querySelector('.intro');
   if(window.pageYOffset>1080){
 header.classList.add('fixed-header');
-  }else{
+header.classList.remove('not-fixed-header');
+intro.classList.add('help');
+  }else if(window.pageYOffset>0 && header.classList.contains('fixed-header')){
     header.classList.remove('fixed-header');
+    header.classList.add('not-fixed-header');
+    intro.classList.add('help');
   }
+    
+    if(window.pageYOffset > 200 && window.pageYOffset < 1000){
+    header.classList.remove('not-fixed-header');
+    intro.classList.remove('help');
+  }
+
+  
+
   if (window.pageYOffset > 2000) {
     upButton.classList.add('shown');
   } else{
    upButton.classList.remove('shown'); 
   }
-
 };
+
+
+
 
 upButton.onclick = function () {
   window.scrollTo(0, 0);
 };
-  </script>
-  <script>
-    
   </script>
 </html>
