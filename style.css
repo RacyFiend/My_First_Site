@@ -270,9 +270,26 @@ html{
   display: inline-block;
 }
 
+.light .fixed-header {
+position: fixed;
+top: 0;
+left: 0;
+animation-name: fix-header-light;
+animation-duration: 1s;
+}
 
-
-
+@keyframes fix-header-light{
+from{
+top: -70px;
+opacity:0;
+background-color: #f2f4f6;
+}
+to{
+top: 0;
+opacity: 0.6;
+background-color: #288be6;
+}
+}
 
 
 
@@ -518,4 +535,25 @@ html{
   transform: scale(1.1);
   color: white;
   border-color: white;
+}
+
+.dark .fixed-header {
+position: fixed;
+top: 0;
+left: 0;
+animation-name: fix-header-dark;
+animation-duration: 1s;
+}
+
+@keyframes fix-header-dark{
+from{
+top: -70px;
+opacity:0;
+background-color: #f2f4f6;
+}
+to{
+top: 0;
+opacity: 0.6;
+background-color: #fea18d;
+}
 }
