@@ -91,6 +91,29 @@
     }
     
     
+
+
+
+
+
+
+window.onscroll = function(){
+let header = document.querySelector('page-header');
+if(window.pageYOffset > 1080){
+header.classList.add('fixed-header');
+}
+else{
+header.classList.remove('fixed-header');
+}
+}
+
+
+
+
+
+
+
+
     
     let upButton = document.querySelector('.up-button');
 window.onscroll = function () {
