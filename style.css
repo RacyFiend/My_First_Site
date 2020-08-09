@@ -270,12 +270,7 @@ html{
   display: inline-block;
 }
 
-
-.help{
-  margin: 0 0 220px;
-}
-
-.light .fixed-header {
+/*.light .fixed-header {
 position: fixed;
 top: 0;
 left: 0;
@@ -326,7 +321,7 @@ to{
 top: -70px;
 opacity: 0;
 }
-}
+}*/
 
 
 
@@ -583,7 +578,7 @@ opacity: 0;
   border-color: white;
 }
 
-.dark .fixed-header {
+/*.dark .fixed-header {
 position: fixed;
 top: 0;
 left: 0;
@@ -634,4 +629,4 @@ to{
 top: -70px;
 opacity: 0;
 }
-}
+}*/
