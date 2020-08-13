@@ -219,6 +219,7 @@ html{
 }
 
 .theme-button:hover{
+ cursor: pointer;
   transform: scale(1.2);
 }
 
@@ -265,6 +266,7 @@ html{
   transform: scale(1.1);
   color: black;
   border-color: black;
+ cursor: pointer;
 }
 .shown {
   display: inline-block;
@@ -573,6 +575,7 @@ opacity: 0;
 }
 
 .dark .up-button:hover {
+ cursor: pointer;
   transform: scale(1.1);
   color: white;
   border-color: white;
