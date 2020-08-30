@@ -167,8 +167,8 @@ html{
 }
 
 .button {
-  margin-bottom: 20px;
-   transition-property: transform;
+  margin-bottom: 50px;
+  transition-property: transform;
   transition-duration: 1s;
   padding: 8px 20px;
   display: inline-block;
